@@ -18,8 +18,8 @@ class Mata_kuliah:
 
     def diambil(self, kapasitas, nama_mahasiswa):
         self.kapasitas -= 1
-        print ('kapasitas tersedia: ' + str(self.kapasitas))
-        print (self.namaMatkul + ' diambil oleh ' + nama_mahasiswa + "\n")
+        print ('Mata kuliah ' + self.namaMatkul + ' diambil oleh ' + nama_mahasiswa)
+        print ('Sisa kapasitas mata kuliah ' + self.namaMatkul + ' sebanyak: ' + str(self.kapasitas) + "\n")
 
 PBO = Mata_kuliah('PBO', 40)
 AI  = Mata_kuliah('AI', 40)
