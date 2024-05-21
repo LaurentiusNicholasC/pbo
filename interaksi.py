@@ -1,3 +1,6 @@
+#Laurentius Nihcolas 2215061059
+#Arnora Mardiansyah 2215061015
+#Theofani Hati K 2255061004
 class Mahasiswa:
 
     def __init__ (self, nama, npm):
